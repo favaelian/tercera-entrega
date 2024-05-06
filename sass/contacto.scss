@@ -1,0 +1,25 @@
+.titulo-redes{
+    color: #FEFEFE;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+.redes-sociales {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.redes-sociales a {
+    display: block;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    width: 100px; 
+    height: auto; 
+}

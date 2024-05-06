@@ -1,0 +1,208 @@
+.titulo-redes {
+  color: #FEFEFE;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.redes-sociales {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.redes-sociales a {
+  display: block;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+.redes-sociales img {
+  width: 100px;
+  height: auto;
+}
+
+header {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 40%, rgb(254, 254, 254) 100%);
+  width: 1255px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  width: 9%;
+  position: relative;
+  left: 45%;
+}
+
+.bg-color {
+  background-color: #FEFEFE;
+}
+
+.arriba {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: large;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #FEFEFE;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+.fondo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.copy-part {
+  color: #FEFEFE;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.imagenes-abajo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -27px;
+  margin-left: 100px;
+}
+
+.under-armour {
+  width: 5%;
+}
+
+.logo-copyright {
+  width: 20px;
+  height: 20px;
+}
+
+.sedes-tit {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+}
+
+.disciplinas {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+}
+
+.funcional {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 10px;
+  top: 50px;
+}
+
+.imgfuncional {
+  width: 40%;
+  position: relative;
+  top: -100px;
+  left: 60px;
+}
+
+.musculacion {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 650px;
+  top: 0px;
+}
+
+.imgmusculacion {
+  width: 40%;
+  position: relative;
+  top: -100px;
+  left: 200px;
+}
+
+.pilates {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 0px;
+  top: 410px;
+}
+
+.imgpilates {
+  width: 40%;
+  position: relative;
+  top: 0px;
+  left: 60px;
+}
+
+.zumba {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 650px;
+  top: 350px;
+}
+
+.imgzumba {
+  width: 40%;
+  position: relative;
+  top: 0px;
+  left: 200px;
+}
+
+.promosgym {
+  color: #FEFEFE;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.medio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+}
+
+/*# sourceMappingURL=style.css.map */

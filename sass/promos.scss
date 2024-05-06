@@ -1,0 +1,25 @@
+.promosgym{
+    color: #FEFEFE;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .medio {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-column: 2; 
+  }
