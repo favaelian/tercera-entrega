@@ -1,4 +1,5 @@
-.promosgym{
+@media only screen and (max-width:600px) { 
+	.promosgym{
     color: #FEFEFE;
     width: 50%;
     text-align: center;
@@ -23,3 +24,60 @@
     align-items: center; 
     grid-column: 2; 
   }
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px) { 
+  .promosgym{
+    color: #FEFEFE;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .medio {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-column: 2; 
+  }
+}
+
+@media only screen and (min-width:1201px) { 
+  .promosgym{
+    color: #FEFEFE;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .medio {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    grid-column: 2; 
+  }
+}

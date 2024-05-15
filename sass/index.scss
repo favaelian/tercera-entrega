@@ -1,5 +1,5 @@
-
-header{
+@media only screen and (max-width:600px) { 
+	header{
     
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(254,254,254,1) 100%);
@@ -75,4 +75,165 @@ body{
     width: 20px;
     height: 20px;
     
+}
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px) { 
+    header{
+    
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(254,254,254,1) 100%);
+        width: 1255px;   
+    }
+    .logo{    
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        width: 9%;
+        position: relative;
+        left: 45%;
+        
+    }
+    .bg-color{
+        background-color: #FEFEFE;
+    }
+    .arriba{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: large;
+        
+        background-color: #000000;
+        
+    }
+    a{
+        text-decoration: none;
+        color: #FEFEFE;
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;  
+    }
+    .fondo{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .pie{
+       display: flex;
+       justify-content: center;
+       justify-content: space-evenly;
+       
+    }
+    .copy-part{
+        color: #FEFEFE;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        
+     
+         
+    }
+    .imagenes-abajo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -27px;
+        margin-left: 100px;
+    }
+    .under-armour{
+        width: 5%;
+       
+        
+    }
+    .logo-copyright{
+        width: 20px;
+        height: 20px;
+        
+    }
+}
+
+@media only screen and (min-width:1201px) { 
+    header{
+    
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(254,254,254,1) 100%);
+        width: 1255px;   
+    }
+    .logo{    
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        width: 9%;
+        position: relative;
+        left: 45%;
+        
+    }
+    .bg-color{
+        background-color: #FEFEFE;
+    }
+    .arriba{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: large;
+        
+        background-color: #000000;
+        
+    }
+    a{
+        text-decoration: none;
+        color: #FEFEFE;
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;  
+    }
+    .fondo{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .pie{
+       display: flex;
+       justify-content: center;
+       justify-content: space-evenly;
+       
+    }
+    .copy-part{
+        color: #FEFEFE;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        
+     
+         
+    }
+    .imagenes-abajo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -27px;
+        margin-left: 100px;
+    }
+    .under-armour{
+        width: 5%;
+       
+        
+    }
+    .logo-copyright{
+        width: 20px;
+        height: 20px;
+        
+    }
 }

@@ -1,4 +1,5 @@
-.disciplinas{
+@media only screen and (max-width:600px) { 
+	.disciplinas{
     color: #FEFEFE;
     width: 50%;
     text-align: center;
@@ -61,4 +62,139 @@
     position: relative;
     top: 000px;
     left: 200px;
+}
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px) { 
+    .disciplinas{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+    .funcional{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 50px;
+    }
+    .imgfuncional{
+        width: 40%;
+        position: relative;
+        top: -100px;
+        left: 60px;
+    
+    }
+    .musculacion{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 650px;
+        top: 0px;
+    }
+    .imgmusculacion{
+        width: 40%;
+        position: relative;
+        top: -100px;
+        left: 200px;
+    }
+    .pilates{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 0px;
+        top: 410px;
+    }
+    .imgpilates{
+        width: 40%;
+        position: relative;
+        top: 00px;
+        left: 60px;
+    }
+    .zumba{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 650px;
+        top: 350px;
+    }
+    .imgzumba{
+        width: 40%;
+        position: relative;
+        top: 000px;
+        left: 200px;
+    }
+}
+
+@media only screen and (min-width:1201px) { 
+    .disciplinas{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+    .funcional{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 50px;
+    }
+    .imgfuncional{
+        width: 40%;
+        position: relative;
+        top: -100px;
+        left: 60px;
+    
+    }
+    .musculacion{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 650px;
+        top: 0px;
+    }
+    .imgmusculacion{
+        width: 40%;
+        position: relative;
+        top: -100px;
+        left: 200px;
+    }
+    .pilates{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 0px;
+        top: 410px;
+    }
+    .imgpilates{
+        width: 40%;
+        position: relative;
+        top: 00px;
+        left: 60px;
+    }
+    .zumba{
+        color: #FEFEFE;
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 650px;
+        top: 350px;
+    }
+    .imgzumba{
+        width: 40%;
+        position: relative;
+        top: 000px;
+        left: 200px;
+    }
 }
